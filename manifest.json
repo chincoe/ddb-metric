@@ -1,6 +1,6 @@
 {
   "name": "DDB Metric",
-  "description": "Calculates the metric equivalent of imperial unit measurements on dndbeyond.com",
+  "description": "Calculates and inserts the metric equivalent of imperial unit measurements on dndbeyond.com",
   "version": "1.0",
   "manifest_version": 3,
   "content_scripts": [{
@@ -11,5 +11,8 @@
   "permissions": ["storage", "scripting"],
   "action": {
     "default_popup": "popup.html"
+  },
+  "icons": {
+    "128": "ddb-metric-128.png"
   }
 }
