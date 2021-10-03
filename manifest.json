@@ -1,7 +1,7 @@
 {
   "name": "DDB Metric",
   "description": "Calculates and inserts the metric equivalent of imperial unit measurements on dndbeyond.com",
-  "version": "1.0",
+  "version": "0.0.1",
   "manifest_version": 3,
   "content_scripts": [{
     "matches": ["https://www.dndbeyond.com/**"],
