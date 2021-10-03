@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DDB Metric Popup</title>
+    <style>
+        body {
+            background: black;
+            color: white;
+        }
+    </style>
+</head>
+<body style="width: 140px">
+    <div style="display: flex; margin-bottom: 5px">
+        <img height="20px" src="https://www.dndbeyond.com/content/1-0-1756-0/skins/waterdeep/images/dnd-beyond-logo.svg" alt="DDB logo"/>
+        <span style="font-size: 26px; margin-top: -7.5px; margin-left: 5px">Metric</span>
+    </div>
+    <div style="display: flex">
+        <label for="scale-input">
+            5ft =
+            <input id="scale-input" type="text" style="width: 20px"/>
+            m
+        </label>
+    </div>
+    <div style="display: flex">
+        <label for="replace-input">
+            Replace <input id="replace-input" type="checkbox">
+        </label>
+    </div>
+<script src="popup.js"></script>
+</body>
+</html>
